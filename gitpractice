@@ -11,7 +11,7 @@ or to avoid staging or index
 #git commit -a -m "creating fn"
 #git remote add origin https://github.com/arihanthreddy/git-real.com
 #git remote -v ---> to check the remote repository
-#git push origin master
+#git push -u origin master
 #git fetch --> is used to download the contents from remote repository to local
 #git pull ---> does git fetch follwed by git mearge
 
