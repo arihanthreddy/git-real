@@ -1,4 +1,4 @@
-node {
+node{
  stage('SCM checkout'){
    git 'https://github.com/arihanthreddy/git-real'
  }
