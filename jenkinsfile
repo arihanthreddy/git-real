@@ -1,0 +1,8 @@
+node {
+ stage('SCM checkout'){
+   git 'https://github.com/arihanthreddy/git-real'
+ }
+ stage('Compile-Package'){
+ sh 'mvn package'
+ }
+}
